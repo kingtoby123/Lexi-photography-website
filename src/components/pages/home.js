@@ -90,7 +90,7 @@ export default class Home extends Component {
                     </h2>
 
                     <h1>
-                        Be sure to check out my <a href="https://www.instagram.com/lexisuephotography/">Instagram!</a>
+                        Be sure to check out my <a href="https://www.instagram.com/lexilichtyphotography/">Instagram!</a>
 
                     </h1>
                     </div>

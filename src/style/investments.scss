@@ -1,0 +1,162 @@
+.investment-wrapper{
+    height: 100vh;
+    width: 100vw;
+
+    .pricing{
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pricing-box-family{
+            display: grid;
+            width: 20%;
+            height: 70%;
+            background-color: tan;
+
+            .pricing-box-family-heading{
+
+                display: flex; 
+                justify-content: center;
+
+            }
+                
+            .pricing-box-family-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 20%;
+                
+                p{
+                    display: flex;
+                    justify-content: center;
+                    width: 55%;
+                    height: 80%;
+                    font-size: 15px;
+                }
+            }
+            
+            .pricing-box-family-button{
+                display: flex;
+                justify-content: center;
+                
+                button{
+                    
+                    height: 60px;
+                    width: 100px;
+                    
+                }
+            }
+                
+                
+                
+                
+        }   
+        .pricing-box-couple{
+            display: grid;
+            width: 20%;
+            height: 70%;
+            background-color: #a4b1a0;
+
+
+            .pricing-box-couple-heading{
+                padding-top: 20px;
+
+                display: flex; 
+                justify-content: center;
+
+            }
+
+            .pricing-box-couple-price{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                font-size: 3rem;
+                font-weight: bold;
+
+
+            }
+                
+            .pricing-box-couple-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 10%;
+                
+                p{
+                    display: flex;
+                    justify-content: center;
+                    width: 70%;
+                    height: 80%;
+                    font-size: small;
+                }
+            }
+            
+            .pricing-box-couple-button{
+                display: flex;
+                justify-content: center;
+                
+                button{
+                    
+                    height: 60px;
+                    width: 100px;
+                    
+                }
+            }
+                
+                
+                
+                
+        }   
+        .pricing-box-individial{
+            display: grid;
+            width: 20%;
+            height: 70%;
+            background-color: tan;
+
+            .pricing-box-individial-heading{
+
+                display: flex; 
+                justify-content: center;
+
+            }
+                
+            .pricing-box-individial-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 10%;
+                
+                p{
+                    display: flex;
+                    justify-content: center;
+                    width: 55%;
+                    height: 80%;
+                    font-size: small;
+                }
+            }
+            
+            .pricing-box-individial-button{
+                display: flex;
+                justify-content: center;
+                
+                button{
+                    
+                    height: 60px;
+                    width: 100px;
+                    
+                }
+            }
+                
+                
+                
+                
+        }   
+
+    }
+
+
+}

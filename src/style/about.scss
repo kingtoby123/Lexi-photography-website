@@ -1,0 +1,73 @@
+.about-wrapper{
+    padding-bottom: 100px;
+    background-color: tan;
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        p{
+            font-size: 2rem;
+        }
+        
+        h1{
+            font-size: 3rem;
+            
+        }
+
+        
+        
+        
+    }
+    
+    .bottom-about{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: tan;
+        height: 100%;
+        width: 100%;
+        padding-top: 50px;
+        
+        .image{
+            height: 100%;
+            width: 50vw;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+           
+          
+            img{
+                height: 80%;
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+            }
+        }
+        
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+            width: 60vw;
+
+            P{
+                font-size: 1.5rem;
+                width: 90%;
+
+            }
+            
+            
+            
+            
+        }
+    }
+}

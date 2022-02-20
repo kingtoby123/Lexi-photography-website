@@ -13,43 +13,59 @@ export default class Navigation extends Component {
     render() {
         return (
             <div className="navigation-wrapper">
-                <div className="left-side">
 
                 <div className="nav-link-wrapper">
+                    <div>
                       <NavLink exact to="/" activeClassName="nav-link-active">
-                        Home
+                          <p>
+                                Home
+                          </p>
                       </NavLink>
                     </div>
 
                     <div className="nav-link-wrapper">
-                        <NavLink exact to="/couple" activeClassName="nav-link-active">
-                            Couple Inquiry
+                        <NavLink exact to="/about" activeClassName="nav-link-active">
+
+                            <p>
+
+                                About Me
+                            </p>
 
                         </NavLink>
 
                     </div>
 
                     <div className="nav-link-wrapper">
-                        <NavLink exact to="/family" activeClassName="nav-link-active">
-                            Family Inquiry
+                        <NavLink exact to="/investments" activeClassName="nav-link-active">
+
+                            <p>
+                                Investment
+
+                            </p>
+
+
 
                         </NavLink>
 
                     </div>
 
                     <div className="nav-link-wrapper">
-                        <NavLink exact to="/wedding" activeClassName="nav-link-active">
-                            Wedding Inquiry
+                        <NavLink exact to="/session" activeClassName="nav-link-active">
+
+                            <p>
+
+                                Book A Session
+                            </p>
 
                         </NavLink>
 
                     </div>
+                </div>
 
                     
 
-                </div>
-                
             </div>
+                
         )
     }
 }

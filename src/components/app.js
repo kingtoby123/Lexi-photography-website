@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navigation from './navigation/navigation';
-import Wedding from './pages/wedding';
-import Family from './pages/family';
-import Couple from './pages/couple';
+import Session from './pages/session';
+import Investments from './pages/investments';
+import About from './pages/about';
 import Home from './pages/home';
 
 export default class App extends Component {
@@ -20,9 +20,9 @@ export default class App extends Component {
               <Switch>
 
                 <Route exact path="/" component={Home} />
-                <Route path="/couple" component={Couple} />
-                <Route path="/family" component={Family} />
-                <Route path="/wedding" component={Wedding} />
+                <Route path="/about" component={About} />
+                <Route path="/investments" component={Investments} />
+                <Route path="/session" component={Session} />
 
               </Switch>
               

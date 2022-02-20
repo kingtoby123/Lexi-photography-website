@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import LexiOne from '../../../static/assets/img/lexiOne.jpg'
 import LexiTwo from '../../../static/assets/img/lexiTwo.jpg'
 
-export default class wedding extends Component {
+export default class Session extends Component {
     constructor(props) {
         super(props)
 
